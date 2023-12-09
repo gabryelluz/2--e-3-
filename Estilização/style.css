@@ -86,11 +86,17 @@ header {
     padding: 0 5%;
 }
 
+#after__1sec {
+    display: none;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
 #barra-de-pesquisa {
-  display: none;
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 10px;
+    padding: 1.5vw 15vw;
+    border-radius: 15px;
+    border: 1px solid white;
 }
 
 #img__search {
@@ -98,13 +104,10 @@ header {
   height: 20px;
 }
 
-#input__search{
-  padding: 0 3vw;
-  border-radius: 30px;
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-  outline: none; /* Remove a borda ao focar no input */
+#input__search {
+    background-color: transparent;
+    color: white;
+    outline: none;
 }
 
 .text__1sec__cont {
@@ -206,6 +209,7 @@ header {
     #barra-de-pesquisa {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
     }
 }
