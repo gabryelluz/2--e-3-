@@ -86,7 +86,7 @@ header {
     padding: 0 5%;
 }
 
-#after__1sec {
+#td__1sec {
     display: none;
     padding: 10px;
     margin: 0 auto;
@@ -221,7 +221,7 @@ header {
         display: none;
     }
 
-    #after__1sec {
+    #td__1sec {
         display: flex;
         justify-content: center;
     }
