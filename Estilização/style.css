@@ -90,15 +90,17 @@ header {
     display: none;
     padding: 10px;
     margin: 0 auto;
-    color: var(--cor-fundo);
 }
 
 #text__1sec {
     font-size: 11px;
     font-weight: 500;
+    color: var(--cor-fundo);
+    text-align: center;
 }
 
 #title__1sec {
+    color: var(--cor-fundo);
     font-size: 22px;    /*1.62vw = 22px -> 28,88px = 22px + 31,26%*/
     font-weight: bold;
     text-align: center;
