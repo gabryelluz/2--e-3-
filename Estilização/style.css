@@ -97,7 +97,6 @@ header {
     border-radius: 15px;
     border: 1px solid white;
     display: flex;
-    align-items: center;
 }
 
 #img__search__button {
@@ -113,8 +112,9 @@ header {
     background-color: transparent;
     color: white;
     outline: none;
+    text-align: center;
     border: none;
-}
+    width: 220px;}
 
 #input__search::placeholder {
     color: var(--cor-fundo);
