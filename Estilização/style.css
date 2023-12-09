@@ -234,4 +234,8 @@ header {
         display: flex;
         justify-content: center;
     }
+
+    .title_secs {
+        font-size: 28px;
+    }
 }
