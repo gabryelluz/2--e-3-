@@ -92,6 +92,12 @@ header {
     margin: 0 auto;
 }
 
+#title__1sec {
+    font-size: clamp(13.75px, 1.62vw, 28.88px);    /*1.62vw = 22px -> 28,88px = 22px + 31,26%*/
+    font-weight: bold;
+    text-align: center;
+}
+
 #barra-de-pesquisa {
     padding: 1vw 18vw;
     border-radius: 15px;
@@ -199,8 +205,7 @@ header {
 
 #text__footer {
     text-align: center;
-    font-size: clamp(13.75px, 1.62vw, 28.88px);
-    /*1.62vw = 22px -> 28,88px = 22px + 31,26%*/
+    font-size: clamp(13.75px, 1.62vw, 28.88px);    /*1.62vw = 22px -> 28,88px = 22px + 31,26%*/
     font-weight: bold;
     background: var(--cor-verde-escuro);
     color: var(--cor-fundo);
