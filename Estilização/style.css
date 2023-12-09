@@ -234,6 +234,10 @@ header {
     #before__1sec {
         display: none;
     }
+    
+    #after__1sec {
+        display: block;
+    }
 
     #td__1sec {
         display: flex;
