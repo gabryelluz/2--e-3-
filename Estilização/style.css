@@ -153,8 +153,7 @@ header {
 
 .img__2sec, .img__5sec {
     width: 17.63vw;
-    min-width: 200px;
-}
+    min-width: 160px;}
 
 .white-space, #white-space2 {
     height: 51px;
@@ -179,7 +178,7 @@ header {
 
 #text__footer {
     text-align: center;
-    font-size: clamp(13.75px, 1.62vw, 28.88px);
+    font-size: 22px;
     font-weight: bold;
     background: var(--cor-verde-escuro);
     color: var(--cor-fundo);
