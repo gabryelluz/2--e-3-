@@ -83,27 +83,41 @@ header {
     padding: 0 5%;
 }
 
+#before__1sec {
+    background: var(--gradiente-fundo);
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 0 5%;
+}
+
 #barra-de-pesquisa {
-  display: none;
-  max-width: 400px;
-  margin: 20px auto;
+    display: none;
+    background: var(--gradiente-fundo);
+    margin: 20px auto;
+    padding: 10px;
 }
 
-.lupa {
-  padding: 10px;
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto; /* Centraliza o container de pesquisa */
 }
 
-img__search {
-  width: 20px;
-  height: 20px;
+#img__search {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Espaço entre a lupa e o campo de pesquisa */
 }
 
-input {
-  padding: 10px;
-  border-radius: 30px;
-  background-color: transparent;
-  color: white;
-  outline: none; /* Remove a borda ao focar no input */
+#input__search {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: var(--cor-fundo);
 }
 
 .text__1sec__cont {
