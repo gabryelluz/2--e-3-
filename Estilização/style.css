@@ -75,8 +75,11 @@ header {
     gap: 10px;
 }
 
-#before__1sec {
+.desenvolvimento__1sec {
     background: var(--gradiente-fundo);
+}
+
+#before__1sec {
     display: flex;
     align-items: center;
     width: auto;
@@ -96,10 +99,11 @@ header {
 }
 
 #input__search{
-  padding: 10px;
+  padding: 0 3vw;
   border-radius: 30px;
   background-color: transparent;
   color: white;
+  border: 1px solid white;
   outline: none; /* Remove a borda ao focar no input */
 }
 
@@ -200,6 +204,8 @@ header {
     }
 
     #barra-de-pesquisa {
-        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }
