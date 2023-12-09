@@ -117,6 +117,10 @@ header {
     border: none;
 }
 
+#input__search::placeholder {
+    color: var(--cor-fundo);
+}
+
 .text__1sec__cont {
     color: var(--cor-fundo);
     font-size: 26px;
