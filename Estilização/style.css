@@ -88,7 +88,7 @@ header {
 
 #td__1sec {
     display: none;
-    padding: 10px;
+    padding: 3vw 0;
     margin: 0 auto;
 }
 
@@ -104,6 +104,7 @@ header {
     font-size: 22px;    /*1.62vw = 22px -> 28,88px = 22px + 31,26%*/
     font-weight: bold;
     text-align: center;
+    padding: 7vw 0 4vw;
 }
 
 #barra-de-pesquisa {
