@@ -90,13 +90,20 @@ header {
     display: none;
     max-width: 400px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 #barra-de-pesquisa {
     padding: 1.5vw 15vw;
     border-radius: 15px;
     border: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+#img__search__button {
+    background: none;
+    border: none;
 }
 
 #img__search {
@@ -209,7 +216,5 @@ header {
     #after__1sec {
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 100%;
     }
 }
