@@ -138,8 +138,9 @@ header {
 #img-text__2sec, #img-text__5sec {
     background: var(--cor-verde-claro);
     display: flex;
+    justify-content: center;
     padding: 3% 6%;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 .title__secs, .title__secs-2 {
