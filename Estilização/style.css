@@ -56,7 +56,7 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #555;
+    background-color: var(--cor-fundo);
     padding: 10px;
 }
 
@@ -64,7 +64,7 @@ header {
     display: block;
 }
 
-.menu_vertical:hover {
+.menu_vertical li:hover {
     background-color: var(--cor-marrom-escuro);
     color: var(--cor-fundo);
 }
