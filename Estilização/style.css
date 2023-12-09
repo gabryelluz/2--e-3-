@@ -83,7 +83,7 @@ header {
     padding: 0 5%;
 }
 
-.barra-de-pesquisa {
+#barra-de-pesquisa {
   display: none;
   max-width: 400px;
   margin: 20px auto;
