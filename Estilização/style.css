@@ -44,31 +44,6 @@ header {
     font-size: 11px;
 }
 
-.menu_vertical {
-    position: relative;
-    padding: 15px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--cor-fundo);
-    padding: 10px;
-}
-
-.menu_vertical:hover .submenu {
-    display: block;
-}
-
-.menu_vertical li:hover {
-    background-color: var(--cor-marrom-escuro);
-    color: var(--cor-fundo);
-}
-
 #sua__viagem {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
