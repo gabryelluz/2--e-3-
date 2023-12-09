@@ -85,7 +85,6 @@ header {
 
 #barra-de-pesquisa {
   display: none;
-  background: var(--gradiente-fundo);
   max-width: 400px;
   margin: 20px auto;
   padding: 10px;
