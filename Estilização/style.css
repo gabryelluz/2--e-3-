@@ -94,7 +94,7 @@ header {
 }
 
 #barra-de-pesquisa {
-    padding: 1.5vw 15vw;
+    padding: 1vw 18vw;
     border-radius: 15px;
     border: 1px solid white;
     display: flex;
@@ -107,14 +107,14 @@ header {
 }
 
 #img__search {
-  width: 20px;
-  height: 20px;
+  width: 26px;
 }
 
 #input__search {
     background-color: transparent;
     color: white;
     outline: none;
+    border: none;
 }
 
 .text__1sec__cont {
