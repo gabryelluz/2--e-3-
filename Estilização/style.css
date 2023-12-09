@@ -186,14 +186,23 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+    .link__left {
+        gap: 4vw;
+    }
+
+    .link__right {
+        gap: 2vw;
+    }
+
     .text__letter {
         font-size: 10px;
+        gap: 1vw;
     }
 
     #link__left__text {
         font-size: 18px;
     }
-    
+
     #before__1sec {
         display: none;
     }
