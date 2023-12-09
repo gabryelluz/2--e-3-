@@ -86,6 +86,10 @@ header {
     padding: 0 5%;
 }
 
+#title__1sec {
+    color: var(--cor-fundo);
+}
+
 #td__1sec {
     display: none;
     padding: 10px;
