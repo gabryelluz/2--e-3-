@@ -28,7 +28,6 @@ header {
 .link__img, .link__left, .link__right, .cpp, .linksmenu {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .link__left {
@@ -39,9 +38,15 @@ header {
     gap: 30px;
 }
 
-.cpp, .linksmenu {
-    gap: 1.7em;
-    font-size: 11px;
+#sua__viagem {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    gap: 11px;
+}
+
+.text__letter {
+    text-transform: uppercase;
+    padding: 8px 10px;
 }
 
 #sua__viagem {
