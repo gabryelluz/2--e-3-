@@ -221,4 +221,8 @@ header {
     #img__secs__show {
         display: none;
     }
+
+    #text__footer {
+        font-size: 16px;
+    }
 }
