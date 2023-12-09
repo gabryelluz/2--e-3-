@@ -86,8 +86,11 @@ header {
     padding: 0 5%;
 }
 
-#td__1sec {
+#after__1sec {
     display: none;
+}
+
+#td__1sec {
     padding: 3vw 0;
     margin: 0 auto;
 }
@@ -170,10 +173,12 @@ header {
 
 .img__2sec {
     width: 17.63vw;
+    min-width: 200px;
 }
 
 .img__5sec {
     width: 17.63vw;
+    min-width: 200px;
 }
 
 .white-space {
@@ -235,7 +240,12 @@ header {
         justify-content: center;
     }
 
-    .title_secs {
-        font-size: 28px;
+    .title__secs {
+        font-size: 15.75px;
+    }
+
+    #img-text__2sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
