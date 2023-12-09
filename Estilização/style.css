@@ -203,6 +203,10 @@ header {
         font-size: 15.75px;
     }
 
+    .text__secs {
+        font-size: 20px;
+    }
+
     #img-text__2sec {
         display: grid;
         grid-template-columns: 1fr 1fr;
