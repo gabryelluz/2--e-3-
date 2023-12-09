@@ -173,6 +173,10 @@ header {
     font-size: 26px;
 }
 
+#img__secs__none {
+    display: none;
+}
+
 #text__footer {
     text-align: center;
     font-size: clamp(13.75px, 1.62vw, 28.88px);
@@ -203,10 +207,19 @@ header {
     #img-text__2sec {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }
 
     .img-text__secs {
         text-align: center;
         display: revert;
+    }
+
+    #img__secs__none {
+        display: revert;
+    }
+
+    #img__secs__show {
+        display: none;
     }
 }
